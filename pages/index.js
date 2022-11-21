@@ -4,7 +4,7 @@ import Image from 'next/image';
 import NavBar from '../components/navBar';
 import Contener_home from '../components/contener_home';
 import Container_works from '../components/container_works';
-import Footer from '../components/footer';
+
 class index extends Component {
   render() {
     return (
