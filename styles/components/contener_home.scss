@@ -1,0 +1,19 @@
+.contener_home{
+    
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    .short_presentation{
+        
+        width: 400px;
+        p{
+            padding-bottom: 25px;
+            font-size: 30px;
+        }
+        
+    }
+    
+}
