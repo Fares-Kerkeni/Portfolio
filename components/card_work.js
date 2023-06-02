@@ -14,33 +14,26 @@ const card_work = ({ name, date, image, src }) => {
   };
 
   return (
-    <Tilt
-      glareEnable={true}
-      tiltMaxAngleX={10}
-      tiltMaxAngleY={10}
-      perspective={1000}
+    <a
+      className="card_work"
+      href={src}
+      onMouseOver={handleMouseOver}
+      onMouseOut={handleMouseOut}
     >
-      <a
-        className="card_work"
-        href={src}
-        onMouseOver={handleMouseOver}
-        onMouseOut={handleMouseOut}
-      >
-        <Image className="img_netflix" src={image} width={500} height={500} />
-        {isHovering && (
-          <div className="hover">
-            <div className="see_img"></div>
-            <div className="text_hover">
-              <div></div>
-              <div className="text">
-                <p className="title_hover">{name}</p>
-                <p className="date">{date}</p>
-              </div>
+      <Image className="img_netflix" src={image} width={500} height={500} />
+      {isHovering && (
+        <div className="hover">
+          <div className="see_img"></div>
+          <div className="text_hover">
+            <div></div>
+            <div className="text">
+              <p className="title_hover">{name}</p>
+              <p className="date">{date}</p>
             </div>
           </div>
-        )}
-      </a>
-    </Tilt>
+        </div>
+      )}
+    </a>
   );
 };
 
