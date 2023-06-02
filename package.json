@@ -20,7 +20,7 @@
     "react-router-dom": "^6.4.3",
     "react-tilt": "^0.1.4",
     "react-vanilla-tilt": "^1.0.0",
-    "sass": "^1.56.1",
+    "sass": "^1.62.1",
     "scss": "^0.2.4"
   }
 }
