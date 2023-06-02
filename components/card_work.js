@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 
 const card_work = ({ name, date, image, src }) => {
   const [isHovering, setIsHovering] = useState(false);
